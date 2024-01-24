@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(118, 150, 255);
+    color: rgb(132, 65, 255);
+}
+
+#main-flex-container {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    background-color: rgb(156, 156, 156);
+}
+#main-flex-container>div {
+    margin: 15px;
+    background-color: rgb(0, 32, 90);
+    width: 350px;
+    text-align: center;
+}
+#main-flex-container>div>p {
+    text-align: center;
+    font-size: xx-large
+}
+#main-flex-container>div:hover {
+    background-color: rgb(0, 183, 255);
+    width: 500px;
+    color: rgb(85, 255, 113);
+    
+}
