@@ -7,7 +7,7 @@ body {
     display: flex;
     height: 150px;
     justify-content: center;
-    background-color: rgb(156, 156, 156);
+    background-color: rgb(134, 91, 255);
 }
 #main-flex-container>div {
     margin: 15px;
@@ -20,8 +20,13 @@ body {
     font-size: xx-large
 }
 #main-flex-container>div:hover {
-    background-color: rgb(0, 183, 255);
-    width: 500px;
+    transition-delay: 150ms;
+    background-color: rgb(178, 84, 255);
+    width: 400px;
     color: rgb(85, 255, 113);
-    
+    height: 130px;
+    transition-delay: 100ms;
+    border: double;
+    text-shadow: 2px 1px;
+    box-shadow: 5px 5px;
 }
