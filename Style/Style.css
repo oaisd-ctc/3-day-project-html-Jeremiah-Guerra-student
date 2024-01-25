@@ -2,7 +2,6 @@ body {
     background-color: rgb(118, 150, 255);
     color: rgb(132, 65, 255);
 }
-
 #main-flex-container {
     display: flex;
     height: 150px;
@@ -29,4 +28,19 @@ body {
     border: double;
     text-shadow: 2px 1px;
     box-shadow: 5px 5px;
+}
+#Mexican-Food {
+    background-color: tan;
+    border: double rgb(132, 65, 255);
+}
+#Italian-Food {
+    background-color: beige;
+    border: groove rgb(132, 65, 255);
+}
+#Turkish-Food {
+    background-color: greenyellow;
+    border: groove rgb(132, 65, 255);
+}
+#INFO {
+    color: cornflowerblue;
 }
