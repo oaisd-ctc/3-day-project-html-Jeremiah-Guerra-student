@@ -1,0 +1,54 @@
+main {
+    background-color: rgb(58, 58, 58);
+}
+
+#main-flex-container {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+
+#main-flex-container>div {
+    background-color: rgb(196, 12, 12);
+    margin: 50px;
+    width: 400px;
+    height: 120px;
+}
+
+#main-flex-container>div:hover {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    transition-delay: 200ms;
+}
+
+#main-flex-container>div:hover:nth-child(1) {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: rgb(255, 209, 2);
+    transition-delay: 200ms;
+}
+
+#main-flex-container>div:hover:nth-child(2) {
+    width: 200%;
+    height: 200px;
+    color: indianred;
+    transition-delay: 200ms;
+}
+
+#main-flex-container>div:hover:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(229, 255, 0);
+    color: aqua;
+    transition-delay: 200ms;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+#main-flex-container>div:not(a) {
+    background-color: rgb(255, 255, 255);
+}
